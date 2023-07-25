@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "LazyTwitch",
+  "version": "1.0.0",
+  "author": "DeusPerpetuum",
+  "content_scripts": [
+    {
+      "matches": ["https://www.twitch.tv/*"],
+      "js": ["index.js"]
+    }
+  ],
+  "description": "__MSG_extensionDescription__",
+  "icons": {"128": "icon.png"},
+  "default_locale": "en"
+}
